@@ -1,0 +1,29 @@
+{
+  "name": "@hr-home/openclaw-home-auto-plugin",
+  "version": "0.1.0",
+  "type": "module",
+  "dependencies": {
+    "effect": "^3.14.0",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "@effect/vitest": "^0.17.0",
+    "@fast-check/vitest": "^0.1.0",
+    "@types/node": "^25.5.2",
+    "@types/pg": "^8.20.0",
+    "fast-check": "^3.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.0.5"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "openclaw": {
+    "extensions": [
+      "./src/index.ts"
+    ],
+    "compat": {
+      "pluginApi": ">=2026.4.5"
+    }
+  }
+}

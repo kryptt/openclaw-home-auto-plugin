@@ -1,0 +1,24 @@
+{
+  "id": "openclaw-home-auto-plugin",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "tsdbUrl": { "type": "string" },
+      "telegramChatId": { "type": "string" },
+      "notificationRateLimitMs": { "type": "number" },
+      "anomalyZScoreThreshold": { "type": "number" },
+      "baselineWindowDays": { "type": "number" }
+    }
+  },
+  "uiHints": {
+    "tsdbUrl": {
+      "label": "TimescaleDB URL",
+      "placeholder": "postgresql://openclaw_ro:pass@tsdb.home:5432/hass"
+    },
+    "telegramChatId": {
+      "label": "Telegram Chat ID for notifications",
+      "placeholder": "35261635"
+    }
+  }
+}
