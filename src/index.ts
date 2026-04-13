@@ -54,7 +54,7 @@ export default definePluginEntry({
   id: 'openclaw-home-auto-plugin',
   name: 'Home Auto',
   description: 'Home Assistant integration with TimescaleDB historical queries, anomaly detection, and Telegram notifications',
-  // No kind — this is a general-purpose plugin, not a memory plugin
+  kind: 'integration',
 
   register (api) {
     // ha_history tool — query TimescaleDB LTSS
