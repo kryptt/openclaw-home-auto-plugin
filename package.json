@@ -1,6 +1,6 @@
 {
   "name": "@kryptt/openclaw-home-auto-plugin",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "OpenClaw plugin: Home Assistant automation control surface \u2014 query state, call services, manage entities",
   "type": "module",
   "license": "MIT",
