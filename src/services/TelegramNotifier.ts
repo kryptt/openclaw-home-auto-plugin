@@ -17,7 +17,7 @@ export const TelegramNotifierLive = Layer.succeed(
   TelegramNotifier,
   (() => {
     const token = process.env.TELEGRAM_BOT_TOKEN ?? ''
-    const chatId = process.env.TELEGRAM_NOTIFY_CHAT_ID ?? '35261635'
+    const chatId = process.env.TELEGRAM_NOTIFY_CHAT_ID ?? '123456789'
     const rateLimitMs = DEFAULT_NOTIFICATION_RATE_LIMIT_MS
     let lastNotifyAt = 0
 

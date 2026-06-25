@@ -14,11 +14,11 @@
   "uiHints": {
     "tsdbUrl": {
       "label": "TimescaleDB URL",
-      "placeholder": "postgresql://openclaw_ro:pass@tsdb.home:5432/hass"
+      "placeholder": "postgresql://user:pass@db.example.com:5432/homeassistant"
     },
     "telegramChatId": {
       "label": "Telegram Chat ID for notifications",
-      "placeholder": "35261635"
+      "placeholder": "123456789"
     }
   }
 }
